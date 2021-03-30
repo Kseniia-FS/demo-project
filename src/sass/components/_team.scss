@@ -1,0 +1,36 @@
+.team {
+  max-width: 1200px;
+  margin: 0;
+  padding: 40px;
+}
+
+.team__title {
+  font-size: 50;
+  line-height: 1.8;
+  color: saddlebrown;
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.team__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border: 5px solid red;
+}
+
+.team__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.team__link {
+  cursor: pointer;
+  font-size: 50px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: blue;
+}
