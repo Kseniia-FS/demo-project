@@ -1,7 +1,10 @@
 .team {
   max-width: 1200px;
+  min-height: 300px;
   margin: 0;
   padding: 40px;
+  background-image: url(../images/for-our-team.jpg);
+  background-repeat: round;
 }
 
 .team__title {
@@ -18,7 +21,6 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  border: 5px solid red;
 }
 
 .team__item {
