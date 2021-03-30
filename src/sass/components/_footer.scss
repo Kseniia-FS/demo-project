@@ -1,0 +1,20 @@
+.footer-container {
+    padding: 94px 0;
+  }
+
+  .footer__item {
+    padding: 10px;
+  }
+  
+  .footer__link {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.03;
+    list-style: none;
+    color: green;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      color: blue;
+    }
+  }
